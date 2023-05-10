@@ -1,0 +1,7 @@
+npm install face-api.js
+npm install @tensorflow/tfjs
+npm install @tensorflow-models/face-landmarks-detection
+npm install @tensorflow-models/face-recognition
+npm install @tensorflow-models/face-expression-recognition
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.4.0/dist/tf.min.js"></script>
