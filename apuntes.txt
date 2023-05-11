@@ -1,0 +1,27 @@
+npm install face-api.js
+npm install @tensorflow/tfjs
+npm install @tensorflow-models/face-landmarks-detection
+npm install @tensorflow-models/face-recognition
+npm install @tensorflow-models/face-expression-recognition
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.4.0/dist/tf.min.js"></script>
+
+//----------------------------------------------------------------------------
+Entrenar un modelo de detección facial. bibliotecas populares OpenCV, dlib y TensorFlow.
+//----------------------------------------------------------------------------
+Entiendo. Para lograr eso, necesitarás realizar las siguientes tareas:
+
+Preparar un conjunto de datos etiquetados: Para entrenar un modelo de detección facial, necesitarás un conjunto de datos de imágenes faciales etiquetadas. Puedes utilizar las imágenes capturadas en la fase de registro junto con las etiquetas correspondientes (es decir, el nombre de la persona) para crear tu conjunto de datos.
+
+Entrenar un modelo de detección facial: Puedes utilizar bibliotecas como OpenCV, dlib o TensorFlow para entrenar un modelo de detección facial. Estos modelos pueden identificar y extraer características faciales importantes de las imágenes. Puedes utilizar técnicas como el reconocimiento de patrones, aprendizaje profundo (por ejemplo, redes neuronales convolucionales) u otras técnicas de visión por computadora para entrenar tu modelo.
+
+Guardar el modelo entrenado: Una vez que hayas entrenado el modelo, deberás guardarlo en un formato adecuado para su uso posterior. Puedes guardar el modelo en un archivo o utilizar herramientas específicas de la biblioteca que estés utilizando para el entrenamiento.
+
+Utilizar el modelo para la autenticación facial: En la fase de autenticación, puedes cargar el modelo previamente entrenado y utilizarlo para reconocer y autenticar rostros. Puedes capturar una nueva imagen facial del usuario que intenta autenticarse y utilizar el modelo para predecir la identidad |de la persona basándose en las características faciales extraídas. Si la predicción coincide con alguna de las personas registradas en tu conjunto de datos, puedes autenticar al usuario.
+
+
+//regsitro al empresa
+5 fotos
+-> entrenar a IA tensorflow ->  modelos -actualizar 
+//verificacion al empleado
+camara -> verificacion usando -> modelos 
